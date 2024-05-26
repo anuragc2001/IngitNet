@@ -13,10 +13,10 @@ st.set_page_config(layout='wide')
 # Setup the sidebar
 with st.sidebar: 
     st.image('https://www.onepointltd.com/wp-content/uploads/2020/03/inno2.png')
-    st.title('IngitNet')
+    st.title('ইঙ্গিতNet')
     st.info('This application is originally developed from the IngitNet deep learning model.')
 
-st.title('IngitNet Full Stack App') 
+st.title('ইঙ্গিতtNet Full Stack App') 
 # Generating a list of options or videos 
 options = os.listdir(os.path.join('..', 'data', 's1'))
 selected_video = st.selectbox('Choose video', options)
